@@ -1,2 +1,3 @@
 # Schedule_Optimization
 Example problem for employee shift optimization project for MAE 509: LMI Methods in Optimal and Robust Control (Arizona State University, Professor Matthew M. Peet). 
+In this example, employees are asked to fill in the schedules in the E.xlsx file in order of preference 1-5, with 1 indicating a time period they would most like to work. An entry of 999 indicates the employee is unavailable to work at this time. Other data is filled in by management according to business needs, employee evaluations, etc. Then the matlab code is executed (requires YALMIP, Gurobi) which results in an optimized shift schedule being written to the S.xlsx file. 
